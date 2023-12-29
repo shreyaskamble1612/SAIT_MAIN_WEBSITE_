@@ -6,20 +6,32 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  cursor: url('./src/Assets/curser-1.png'),auto;
+    
 }
 
 body {
   background-color: #1d1d1ded;
   font-family: "Poppins", sans-serif;  
-  
-}
+  }
 
 
 
 
 .fields {
   display: flex;
+}
+
+.floating {
+  animation: floatAnimation 3s infinite ease-in-out;
+}
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
 
 form .field,
@@ -57,7 +69,7 @@ form .textarea textarea {
   
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25),
   inset -2px -2px 4px rgba(224, 221, 221, 0.485);
- 
+  
 }
 
 form .field input:hover,

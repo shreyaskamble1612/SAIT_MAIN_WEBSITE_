@@ -17,7 +17,7 @@ function ContactForm() {
       <div className="container">
         <h2 className="colorfont">CONTACT US</h2>
         <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-          <div className="col-12 col-lg-6 col-xl-5 ">
+          <div className="col-12 col-lg-6 col-xl-5 floating">
             <img
               className="img-fluid rounded"
               
